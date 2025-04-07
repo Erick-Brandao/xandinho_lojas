@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #073057, #19abee);
+}
+
+nav{
+    color: wheat;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.8em;
+    padding: 10px;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    margin-top: 48px;
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.404);
+    width: 700px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form label{
+    font-size: 1.3em;
+    margin-bottom: 3px;
+}
+form input{
+    height: 30px;
+    margin-bottom: 12px;
+}
+form .buttons{
+    margin: auto;
+    margin-top: 24px;
+}
+form .buttons button{
+    padding: 12px 18px;
+    margin: 0 8px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.267);
+    border-radius: 8px;
+}
+form .buttons button:first-child{
+    background-color: greenyellow;
+}
+form .buttons button:first-child:hover{
+    background-color: green;
+    transition: .35s;
+}
+form .buttons button:last-child{
+    background-color: yellow;
+}
+form .buttons button:last-child:hover{
+    background-color: rgb(231, 197, 0);
+    transition: .36s;
+}
+
+.hamburguer{
+    animation-name: aaaa;
+    cursor: crosshair;
+}
+
+@keyframes aaaa {
+    from{
+        rotate: 0;
+    }
+    to {
+        rotate: 100%;
+    }
+}

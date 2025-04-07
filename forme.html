@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <marquee>
+            <h1>&#x1f354; Xandinho lojas &#x1f354;</h1>
+        </marquee>
+    </nav>
+    <main>
+        <Form name="f1" method="post" action="cad.php">
+          <label for="codigo">Código</label>
+          <input type="text" name="codigo" id="codigo" maxlength="13" placeholder="Código">
+          <label for="nome">Nome</label>
+          <input type="text" name="nome" id="nome" maxlength="50" placeholder="Nome do produto">
+          <label for="preco">Preço</label>
+          <input type="number" name="preco" id="preco" step="0.01" placeholder="Preço">
+          <label for="desc">Descrição</label>
+          <input type="text" name="desc" id="desc" maxlength="255" placeholder="Descrição">
+          
+          <div class="buttons">
+              <button type="submit">Cadastrar</button>
+              <button type="reset" value="Resetar">Resetar</button>
+          </div>
+        </Form>
+    </main>
+    <div class="hamburguer">
+        &#x1f354;
+    </div>
+</body>
+</html>
