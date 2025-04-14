@@ -66,15 +66,14 @@ form .buttons button:last-child:hover{
 }
 
 .hamburguer{
-    animation-name: aaaa;
     cursor: crosshair;
+    animation:burguer 1s linear infinite;
 }
-
-@keyframes aaaa {
-    from{
-        rotate: 0;
+@keyframes burguer{
+   0%{
+    transform:rotate(0deg) translate(1px);
     }
-    to {
-        rotate: 100%;
+    100%{
+        transform: rotate(360deg) translate(1px);
     }
 }
